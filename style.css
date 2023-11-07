@@ -1,0 +1,55 @@
+/* the 90's theme is very intentional. I was told non-solid borders were out of style so I used an out-of-style theme. */
+
+body { /* sets a uniform styling to work off of */
+  font-family: 'Times New Roman', serif;
+  background-color: #d0c7d4;
+  color: #111;
+}
+
+h1,h2,h3,h4,h5,h6 { /* insuring that regardless the headings will be centered? */
+  text-align:center;
+}
+
+a:link {color:blue;}
+a:visited {color:purple;}
+a:hover {color:cadetblue;}
+a:active {color:lightblue;}
+
+.box-pop { /* give a bit of saturation to the gray page */
+  background-color: #a69aab;
+  border: 10px outset #c0b7c4;
+  color: #262833;
+  width: 600px;
+  margin: auto;
+}
+
+img {
+  margin: auto;
+  height: auto;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 15px;
+}
+
+div { /* mostly for the img's sake in the div */
+  text-align: center;
+}
+section {
+  width: 500px;
+  text-align: left;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: #c0b7c4;
+  padding: 4px;
+  border: 2px groove;
+}
+
+.li-inside li {
+  list-style-position: inside;
+}
+
+.wrapped {
+  width: 300px;
+  margin: auto;
+}
